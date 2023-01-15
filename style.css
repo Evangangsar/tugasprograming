@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e0ebed;
+  width: 670px;
+  height: 945px;
+  position: relative;
+}
+i {
+  margin-left: 100px;
+  padding-top: 40px;
+  width: 32.66px;
+  height: 38px;
+}
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+h1 {
+  margin-left: 100px;
+  padding-bottom: -25px;
+  font-size: 40px;
+  color: #000000;
+}
+img {
+  width: 493px;
+  height: 547px;
+  top: 228px;
+  left: 100px;
+  margin-top: -60px;
+  position: absolute;
+}
+
+/* Login */
+
+.login {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  padding: 40px;
+  margin-right: 200px;
+  margin-top: -67%;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.login h1 {
+  font-weight: 800px;
+  margin: 0 0 20px;
+  width: 624px;
+}
+.login .input-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: cadetblue;
+  border-color: #fff;
+}
+.login .input-group input {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 10px;
+
+  border-radius: 10px;
+}
+.login .input-group span {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  padding: 0px;
+  text-transform: capitalize;
+  background-color: #fff;
+  transition: 0.5s;
+  font-family: sans-serif;
+}
+.login .input-group input:focus ~ span,
+.login .input-group input:focus ~ span {
+  top: -12px;
+}
+.login .input-group input[type='submit'] {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.login .input-group1 input[type='submit'] {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 10px;
+  border-radius: 10px;
+  background-color: darkred;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  font-style: normal;
+  margin-bottom: 10px;
+  border-color: #fff;
+  color: #fff;
+}
+.login .input-group2 input[type='submit'] {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  font-style: normal;
+  color: #fff;
+  border-color: #fff;
+}
+p {
+  margin-top: 10px;
+}
